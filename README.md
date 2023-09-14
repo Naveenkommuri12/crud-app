@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Employee Managment System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Employee Management System is a web application built using React.js, Node.js, MySQL, Axios, HTML, CSS,Bootstrap and JavaScript. This application allows you to manage employee information through a user-friendly interface.
 
-## Available Scripts
+# Features
+**CRUD**
+Create: Add new employee records to the database.
+Read: Retrieve and view employee information.
+Update: Edit and update existing employee records.
+Delete: Remove employee records from the system.
 
-In the project directory, you can run:
+# Screenshots
+Glance of UI
+<img width="1426" alt="1" src="https://github.com/Naveenkommuri12/crud-app/assets/143915194/94ceb530-fa8c-4c0d-b9df-b8fcffd7b721">
+<img width="1424" alt="2" src="https://github.com/Naveenkommuri12/crud-app/assets/143915194/dc7c72d5-df23-4c64-8ffa-83ef7c57f660">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Prerequisites
+Before you can run the Employee Management System, make sure you have the following prerequisites installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Node.js: Download and install Node.js from nodejs.org.
+MySQL: Install MySQL database server and create a database for this application.
+Git: Install Git for version control if you plan to clone the repository.
 
-### `npm test`
+# Configuration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Database Configuration:**
+In the server/config/db.config.js file, configure your MySQL database connection details (host, user, password, and database name).
 
-### `npm run build`
+PORT=3000      # Port for the server
+DB_HOST=your_database_host
+DB_USER=your_database_user
+DB_PASSWORD=your_database_password
+DB_NAME=your_database_name
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Usage
+**Start the server:**
+cd server
+npm start
+**Start the client:**
+cd ../client
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Acknowledgments
+Special thanks to the open-source community for providing the tools and libraries used in this project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
